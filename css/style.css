@@ -59,14 +59,28 @@ img {
     text-decoration: none;
 }
 .fa-map-marker{
-    background: #430297;
+    height: 40px ;
+    width: 50px ;
+    background: gold;
     color: white;
+    margin-top: 2px;
+}
+.fa-instagram{
+    height: 40px ;
+    width: 50px ;
+    background: rgb(209, 13, 144);
+    color: white ;
+    margin-top: 2px;
 }
 a{
-    margin-left: 42%;
+    margin-left: 44%;
 }
 .fa:hover {
     opacity: 0.7;
+}
+
+.card-div{
+    margin-top: 2%;
 }
 @keyframes rotate{
     0% {
@@ -76,11 +90,11 @@ a{
         background-position-x: -960px, 0;
       }
     0%, 100% {
-    transform: rotate(1deg);
+    transform: rotate(2deg);
     
     }
     50% {
-    transform: rotate(-1deg);
+    transform: rotate(-2deg);
     }
 }
 /* MOBILE  */
@@ -98,5 +112,13 @@ a{
         padding-left: 0 !important;
         padding-right: 0 !important;
         margin-top: 22%;
+    }
+    .card-div{
+        margin-top: 5%;
+    }
+    a{
+    }
+    .contactanos1{
+        margin-left: 25%;
     }
 }
