@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'McLaren', cursive;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar{
+    background: rgb(255, 217, 0) ;
+    border-bottom:3px solid rgba(0, 0, 0, 0.658);
+
+}
+
+
+.navbar-brand{
+    width: 10%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    color: white;
+    height: 50%;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 95px;
+}
+.jumbotron-header{
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url("../images/header-image2.jpg");
+    background-size: cover;
+    opacity: 0.7;
+    text-align: center;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.329);
+}
+
+.jumbotron-tittle{
+    
+    animation: rotate 3s infinite;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+.fa{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-map-marker{
+    background: #430297;
+    color: white;
+}
+a{
+    margin-left: 42%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+@keyframes rotate{
+    0% {
+        background-position-x: 0px;
+      }
+      100% {
+        background-position-x: -960px, 0;
+      }
+    0%, 100% {
+    transform: rotate(1deg);
+    
+    }
+    50% {
+    transform: rotate(-1deg);
+    }
+}
+/* MOBILE  */
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        width: 30%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header{
+    
+        height: 50%;
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-top: 22%;
+    }
+}
