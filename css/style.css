@@ -126,6 +126,9 @@ img {
 .btn-custom:active{
      opacity: 0.7;
 }
+.btn-custom:hover{
+     opacity: 0.7;
+}
 a:hover {
     color: black;
   }
