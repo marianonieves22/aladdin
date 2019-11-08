@@ -131,9 +131,10 @@ a:hover {
     margin-right: auto;
 }
 .list-group-item.active{
-    background-color: #D71578 ;
+    background-color: rgb(133, 5, 71) ;
     border-color: black;
 }
+
 
 @keyframes rotate{
     0% {
@@ -189,14 +190,6 @@ a:hover {
                     .btn-map{
                         margin-top: 28%;
                     }
-                    .fa{
-                        padding: 20px;
-                        font-size: 10px;
-                        width: auto;
-                        height: auto;
-                        text-align: center;
-                        text-decoration: none;
-                        
-                    }
+                    
 
 }
