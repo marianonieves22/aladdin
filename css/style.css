@@ -67,7 +67,7 @@ img {
     animation-fill-mode: none;
     animation-play-state: running;
 }
-.fa{
+.fab{
     padding: 20px;
     font-size: 10px;
     width: auto;
@@ -76,9 +76,16 @@ img {
     text-decoration: none;
     
 }
+.fa-instalacion{
+    width: auto;
+    height: auto;
+    padding: 0;
+
+}
 
 
-.fa-facebook {
+
+.fa-facebook-f {
     background: #3B5998;
     color: white;
     
@@ -93,9 +100,7 @@ img {
     color: white;
     
   }
-  .fa-whatsapp{
-      
-  }
+  
 
 .fa:hover {
     opacity: 0.7;
@@ -107,18 +112,28 @@ img {
 
 }
 .btn-custom{
-    background: #6C1740;
-    color: white;
+    background:  rgba(255, 217, 0, 0.726);
+    color: black; 
     width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    border-color: black;
+    font-weight: bold;
+
 
 }
 a:hover {
-    color: white;
+    color: black;
   }
- 
+ hr{
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-group-item.active{
+    background-color: #D71578 ;
+    border-color: black;
+}
 
 @keyframes rotate{
     0% {
@@ -159,10 +174,29 @@ a:hover {
    
 }
 @media only screen and (min-width: 480px) 
-                   and (max-width: 640px) 
+                   and (max-width: 960px) 
                    and (orientation: landscape) {
                     .header{
-                        margin-top: 5%;
+                        margin-top: 4%;
+                    }
+                    .jumbotron{
+                        width: 100%;
+                    }
+                    .card{
+                        height: 100% !important;
+                        width: 100% !important;
+                    }
+                    .btn-map{
+                        margin-top: 28%;
+                    }
+                    .fa{
+                        padding: 20px;
+                        font-size: 10px;
+                        width: auto;
+                        height: auto;
+                        text-align: center;
+                        text-decoration: none;
+                        
                     }
 
 }
