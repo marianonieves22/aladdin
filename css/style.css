@@ -12,6 +12,7 @@ img {
 .navbar{
     background: rgb(255, 217, 0) ;
     border-bottom:3px solid rgba(0, 0, 0, 0.658);
+    position: fixed;
 
 }
 .card-img-top{
@@ -25,6 +26,7 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .header{
     color: white;
@@ -113,6 +115,10 @@ img {
     margin-right: auto;
 
 }
+a:hover {
+    color: white;
+  }
+ 
 
 @keyframes rotate{
     0% {
